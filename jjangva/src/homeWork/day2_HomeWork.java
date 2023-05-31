@@ -10,16 +10,26 @@ public class day2_HomeWork {
 		int num1 = sc.nextInt();
 		System.out.println("두번째 정수를 입력해주세요");
 		int num2 = sc.nextInt();
+		sc.nextLine();	
 		System.out.println("두 수를 어떻게 할까요?\n 더한다/뺀다/곱한다/나눈다");
-		String str1 = sc.nextLine();
+		String str1 = sc.next();
+		
 		if("더한다" .equals(str1)) {
-			int answer = num1 + num2;
-			System.out.println(answer);
+			System.out.println(num1 + num2);
 		}
+		else if ("뺀다" .equals(str1)) {
+			System.out.println(num1-num2);
+		}
+			else if ("곱한다" .equals(str1)) {
+				System.out.println(num1*num2);
+			}
+				else if ("나눈다" .equals(str1)) {
+					System.out.println(num1/num2);
+		
+		}
+
 	}
-
 }
-
 
 // 1. 콘솔에서 정수 2개와 문자(산술 연산자)를 입력받아 출력하는 코드를 작성
 
