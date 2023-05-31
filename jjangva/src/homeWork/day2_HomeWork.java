@@ -24,13 +24,14 @@ public class day2_HomeWork {
 				System.out.println(num1*num2);
 			}
 				else if ("나눈다" .equals(str1)) {
-					System.out.println(num1/num2);
+					System.out.println((double)num1/num2);
 		
 		}
 
 	}
 }
 
+	
 // 1. 콘솔에서 정수 2개와 문자(산술 연산자)를 입력받아 출력하는 코드를 작성
 
 //예
