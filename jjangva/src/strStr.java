@@ -14,4 +14,4 @@ public class strStr {
 		//System.out.printIn(totalCount);
 	}
 	
-}
+}//123
