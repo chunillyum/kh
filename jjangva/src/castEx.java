@@ -11,6 +11,6 @@ public class castEx {
 		System.out.println((double)1/2);
 		//1/2는 문법에선 문제가 없지만 원하는 결과인 0.5가 안 나오기 때문에 강제형변환을 하였음
 		
-	}
+	}//.
 
 }
