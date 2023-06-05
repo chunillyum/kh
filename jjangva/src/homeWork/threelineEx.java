@@ -4,11 +4,9 @@ public class threelineEx {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("첫 번째 변은 몇 센치인가요?");
+		System.out.println("각 변의 길이를 말해주세요");
 		int firstLine = sc.nextInt();
-		System.out.println("두 번째 변은 몇 센치인가요?");
 		int secondLine = sc.nextInt();
-		System.out.println("세 번째 변은 몇 센치인가요?");
 		int thirdLine = sc.nextInt();
 
 		if(thirdLine < firstLine + secondLine) {
@@ -19,6 +17,7 @@ public class threelineEx {
 		}
         }
 	}
-	
+	//좆나 잘못함. 순서 상관 없이 가장 작은 변 두 개의 합을 알아내서 가장 큰 변보다 길어야만 만들 수 있게끔 해야했음
+	//조건문 떡칠 했어야함.
 
 
