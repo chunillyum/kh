@@ -20,14 +20,13 @@ public class UpDownEx {
 		}
 		else if(answer==random) {
 			System.out.println("Good!");
-			System.out.println("Want more?\ny/n");
+			System.out.println("want more?\ny/n");
+		}
 		String y = sc.nextLine();
-		if(y.equals("y")) {
+		while(y != "n") {
+			continue;
+		
 		}
-		answer=0;
-		}
-		continue;
-	}
 }
-
+	}
 }
