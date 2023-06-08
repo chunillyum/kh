@@ -3,7 +3,7 @@ package day7_method;
 public class ArithemticMethodEx {
 
 	public static void main(String[] args) {
-		System.out.println(sum(1,2));
+		System.out.println(sum(8,13));
 		System.out.println(sub(1,2));
 		System.out.println(mul(1,2));
 		System.out.println(div(1,2));
