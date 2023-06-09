@@ -3,7 +3,7 @@ package day8;
 import java.util.Scanner;
 
 public class MethodGCDEx {
-	public static boolean multiple(int num1) {
+	public static boolean multiple(int num1, int num2) {
 		
 		return num1%2==0||num1%3==0||num1%6==0;
 	}
