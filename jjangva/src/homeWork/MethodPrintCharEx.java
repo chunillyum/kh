@@ -6,19 +6,19 @@ package homeWork;
 
 public class MethodPrintCharEx {//다음과 같이 출력하기 위한 코드를 메소드로 작성(한줄씩
 	
-	public static void a() {
-		System.out.println("*****");
+	public static String a() {
+		return "*****";
 	}
-	public static void b() {
-		System.out.println("?????");
+	public static String b() {
+		return "^^^^^^";
 	}
-	public static void c() {
-		System.out.println("^^^^^");
+	public static String c() {
+		return "?????";
 	}
 	public static void main(String[] args) {
-		a();
-		b();
-		c();
+		System.out.println(a());
+		System.out.println(b());
+		System.out.println(c());
 	}
 
 }

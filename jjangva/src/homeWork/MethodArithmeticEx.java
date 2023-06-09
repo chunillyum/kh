@@ -10,12 +10,12 @@ public class MethodArithmeticEx {
 		int num2 = sc.nextInt();
 		sc.nextLine();//얘가 Int입력값 밑에 있어야만 제 역할을 함.
 		System.out.println("어떠한 연산을 하실 건가요?\n +,-,*,/");
-		String str = sc.nextLine();
-		int result = result(num1, num2, str);
-		System.out.println(result);
+		String userChoice = sc.nextLine();
+		int result = getNumber(num1, num2, userChoice);//result 변수는 getNumber 메소드의 리턴값을 가집니다.
+		System.out.println(result);//getNumber 메소드의 리턴값을 가진 result를 출력하시오.
 	}
 	
-	public static int result(int number1, int number2, String str) {
+	public static int getNumber(int number1, int number2, String str) {//num1, num2, userChoice
 		int result = 0;
 		if(str.equals("+")) {
 			result=number1+number2;
@@ -28,7 +28,6 @@ public class MethodArithmeticEx {
 		}
 		else if(str.equals("/")) {
 			result=number1/number2;
-			return result;
 		}
 		return result;
 		
