@@ -2,7 +2,6 @@ package homeWork;
 //*****
 //?????
 //^^^^^^
-//delimeter 아시죠ㅇ?ㄴ
 
 public class MethodPrintCharEx {//다음과 같이 출력하기 위한 코드를 메소드로 작성(한줄씩
 	
