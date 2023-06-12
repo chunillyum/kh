@@ -34,6 +34,7 @@ public class MethodMonthEx {
 			default://메소드 바깥에 return값을 정할 수 없어서 어쩌나 싶었는데 switch문 안에 default와 return값을 넣으니 해결됨.
 				return "없는 월 입니다.";
 		}//switch문 말고 더 좋은 방법이 있었을까?여태 배운 것중에.
+		//풀이 결과 강사님도 switch문으로 푸셨음.
 	}
 	
 
