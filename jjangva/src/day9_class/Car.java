@@ -10,6 +10,7 @@ package day9_class;
  */
 public class Car {
 	//Car클래스의 멤버변수
+	//멤버변수는 보통 보안성을 위해 private를 사용
 	private String name;//자동차명
 	private	String company;//제조사
 	private int year;//연식

@@ -16,9 +16,7 @@ public class CarMain {
 		carInfo.setGear('d');
 		carInfo.printInfo();
 		carInfo.speedChange(true);
-		carInfo.speedChange(true);
-		carInfo.speedChange(true);
-		carInfo.speedChange(true);
+		//속도를 1 높이려면 한 줄씩 써야댐? 존나 비효율적인 듯
 		carInfo.printInfo();
 	}
 
