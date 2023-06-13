@@ -19,7 +19,7 @@ public class Car {
 	private boolean power;//전원 온오프 유무
 	//생성자
 	public Car(String _name, String _company, int _year) {
-		name = _name;
+		name = _name;//this를 사용한다면 this.name = name; 으로 가능. this.name<<은 class의 멤버변수, 그냥 name은 매개변수
 		company = _company;
 		year = _year;
 		gear = 'p';
