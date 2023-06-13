@@ -33,4 +33,8 @@ public class CopyEx {
 }
 class A{
 	public int num1;
+	public A() {}//이놈이 복사 생성자
+	public A(A a) {
+		num1 = a.num1;
+	}
 }

@@ -70,24 +70,24 @@ class Rect1{
 	}
 }
 
-class Rect2{
-	//멤버변수
-	private Point leftUp, rightDown;//도대체 Point라는 자료는 뭐임?
-
-	public Rect2(Point leftUp, Point rightDown) {
-		this.leftUp = leftUp;
-		this.rightDown = rightDown;
-	}
-	public Rect2(int leftUpX, int leftUpY, int rightDownX, int rightDownY) {
-		leftUp = new Point(leftUpX, leftUpY);
-		rightDown = new Point(rightDownX, rightDownY);
-	}
-	public void print() {
-		System.out.println("======");
-		System.out.println("Lu point : ");
-		leftUp.print();
-		System.out.println("Ru point : ");
-		rightDown.print();
-	}//아니 도대체 이게 뭔 개 씨발같은 소리임?
-	
-}
+//class Rect2{
+//	//멤버변수
+//	private Point leftUp, rightDown;//도대체 Point라는 자료는 뭐임?
+//
+//	public Rect2(Point leftUp, Point rightDown) {
+//		this.leftUp = leftUp;
+//		this.rightDown = rightDown;
+//	}
+//	public Rect2(int leftUpX, int leftUpY, int rightDownX, int rightDownY) {
+//		leftUp = new Point(leftUpX, leftUpY);
+//		rightDown = new Point(rightDownX, rightDownY);
+//	}
+//	public void print() {
+//		System.out.println("======");
+//		System.out.println("Lu point : ");
+//		leftUp.print();
+//		System.out.println("Ru point : ");
+//		rightDown.print();
+//	}//아니 도대체 이게 뭔 개 씨발같은 소리임?
+//	
+//}
