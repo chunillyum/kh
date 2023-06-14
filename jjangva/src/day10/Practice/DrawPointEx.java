@@ -7,7 +7,6 @@ public class DrawPointEx {
 		Scanner sc = new Scanner(System.in);
 		int userX = sc.nextInt();
 		int userY = sc.nextInt();
-		Point.mouse(userX, userY);
 		Point mousePoint = new Point(userY, userY);
 		System.out.println("커서가 이동되었습니다. 현재 커서 위치: "  + mousePoint.mouse(userX, userY));
 	}
