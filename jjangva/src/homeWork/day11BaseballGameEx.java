@@ -31,9 +31,9 @@ public class day11BaseballGameEx {
 //		}
 		Scanner s = new Scanner(System.in);
 		while(true) {
+			System.out.println("1~9사이의 정수를 입력하세요 : ");
 	    		//과정2 : inputArr.length만큼 반복해 유저가 입력한 숫자를 순서대로 inputArr에 넣는다.
 	        	for(int i  = 0; i < inputArr.length; i++) {
-	            		System.out.println("1~9사이의 정수를 입력하세요 : "); //console에 안내문 출력
 	                    	inputArr[i] = s.nextInt(); // scanner메서드를 이용해 inputArr에 유저가 입력한 숫자 넣기
 	                        for(int j = 0; j < i; j++) {
 	                        	if(inputArr[j] == inputArr[i]) {
