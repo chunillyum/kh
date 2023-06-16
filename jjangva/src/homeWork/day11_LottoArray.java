@@ -23,10 +23,21 @@ public class day11_LottoArray {
 					break;
 				}
 			}
+			
 			for (int k = 0; k < lotto.length; k++) {// 보너스 번호와 lotto 난수의 중복을 제거하는 for문
 				if (lotto[i] == bonus) {
 					i--;
 					break;
+				}
+				
+			}
+		}
+		for(int i=0; i<lotto.length-1; i++) {//로또 번호 정렬.(버블정렬)
+			for(int j=0; j<lotto.length-1-i; j++) {
+				if(lotto[j]>lotto[j+1]) {
+					int tmp = lotto[j];
+					lotto[j]=lotto[j+1];
+					lotto[j+1]=tmp;
 				}
 			}
 		}
@@ -77,4 +88,3 @@ public class day11_LottoArray {
 		}
 	}
 }
-
