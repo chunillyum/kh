@@ -20,7 +20,7 @@ public class SubjectAnswer {
 		this.semester = 1;
 	}
 
-	public SubjectAnswer(String title, int grade, int semester) {
+	public SubjectAnswer(String title, int grade, int semester) {//이건 생성할 때 입력해야함(생성자이기 때문)
 		this.title = title;
 		this.grade = grade;
 		this.semester = semester;
@@ -34,7 +34,7 @@ public class SubjectAnswer {
 	/**수행평가 성적 추가/수정 : setPerformance */
 	
 	/**성적 추가(전체)/수정 */
-	public void updateScore(int midTerm, int finalTerm, int performance) {
+	public void updateScore(int midTerm, int finalTerm, int performance) {//메인 메소드에서 입력값을 입력해야함
 		this.midTerm = midTerm;
 		this.finalTerm = finalTerm;
 		this.performance = performance;
