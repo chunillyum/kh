@@ -14,7 +14,7 @@ public class SubjectAnswer {
 	private int semester;
 	
 	//생성자
-	public SubjectAnswer(String title) {
+	public SubjectAnswer(String title) {//default 생성자
 		this.title = title;
 		this.grade = 1;
 		this.semester = 1;
